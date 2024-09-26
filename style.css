@@ -56,11 +56,12 @@ body {
   /* this is the key to understanding flexbox  */
 
   display: flex;
+  overflow-y: scroll;
 
   /* flex-direction: column; */
 
   /* justify-content is for aligning the element on the main axis  (horizontal by default) */
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly; */
 
   /* try */
   /* flex-start, flex-end, center,space-between,space-around, space-evenly */
@@ -94,18 +95,18 @@ body {
 }
 
 /* Learning Point 2 */
-/* flex-grow */
-/* flex-shrink */
+flex-grow */
+flex-shrink */
 
 .item-3 {
-  font-size: 1.5rem;
-  /* flex-grow: 1; */
-  /* flex-shrink: 5; */
-  /* flex-basis: 300px; */
+  font-size: 5rem;
+   /*flex-grow: 4;
+   
+   flex-basis: 300px; 
   /* flex combines all 3 but the last 2 are optional and will adjust responsively by default */
-  /* flex: 1; */
+  /*flex: 1; */
   /* try */
-  /* flex-start, flex-end, center,baseline */
-  /* align-self: baseline; */
+   
+  align-self: baseline; */
   /* order: -1; */
 }
